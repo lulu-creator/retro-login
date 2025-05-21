@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <div class="cassette">
+                    <div class="cassette-hole"></div>
+                    <div class="cassette-hole"></div>
+                </div>
+                <h1>RETRO LOGIN</h1>
+            </div>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="username" required>
+                    <label for="username">Username</label>
+                    <div class="input-line"></div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                    <div class="input-line"></div>
+                </div>
+                
+                <div class="remember-me">
+                    <label class="toggle">
+                        <input type="checkbox" id="remember">
+                        <span class="slider"></span>
+                    </label>
+                    <span>Remember me</span>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <span class="btn-text">SIGN IN</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </form>
+            
+            <div class="links">
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <a href="#" class="create-account">Create Account</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
